@@ -20,12 +20,45 @@ html body {
 .main {
   top: 4rem;
 }
+
 .container {
   padding: 0 1.5rem;
-  min-height: 4rem;
 }
 
 .container-media {
   margin: 2rem 1.5rem 2rem 0;
   width: 60%;
 }
+
+/* Header section */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  line-height: 4em;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo p {
+  font-size: 2rem;
+}
+
+.navbar-links {
+  display: flex;
+}
+
+a {
+  margin-left: 1rem;
+  text-decoration: none;
+}
+
+.navbar-mobile {
+  display: none;
+  justify-content: space-between;
+  line-height: 4em;
+}
+
+/* Banner section */
