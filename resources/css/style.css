@@ -38,11 +38,29 @@ html body {
   width: 100%;
 }
 
-.container-article {
+.text-align-left {
   text-align: left;
+}
+.container-article {
   width: 40%;
+}
+
+.vertical-text {
   margin: auto 0;
-  padding: 1rem;
+}
+
+.text h2 {
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.text h3 {
+  font-size: 1.5rem;
+}
+
+.text p {
+  margin: 0.5rem 0;
 }
 
 /* Header section */
@@ -65,7 +83,7 @@ html body {
   display: flex;
 }
 
-a {
+.navbar-links a {
   margin-left: 1rem;
   text-decoration: none;
 }
@@ -85,21 +103,19 @@ a {
   padding-bottom: 2rem;
 }
 
-.container-article h1 {
-  font-size: 2rem;
-  line-height: 2rem;
+.banner h1 {
+  font-size: 2.5rem;
   margin-bottom: 1.5rem;
 }
 
-.container-article p {
+.banner p {
   font-size: 1rem;
   margin-bottom: 1.5rem;
 }
 
-.container-article button {
+.banner button {
   font-size: 1rem;
   padding: 0.5rem;
-
   width: 65%;
   background-color: rgb(61, 61, 61);
 }
@@ -107,3 +123,35 @@ a {
 button a {
   color: white;
 }
+
+/* Information section */
+
+.information {
+  background-color: rgb(238, 238, 238);
+  display: flex;
+  padding-bottom: 2rem;
+}
+
+.information-left {
+  margin-top: 2rem;
+}
+
+.information-right {
+  margin-top: 1rem;
+}
+
+.information-right-content {
+  display: flex;
+  padding: 1rem;
+}
+
+.information-right img {
+  width: 35%;
+  margin-right: 1rem;
+}
+
+.mobile {
+  display: none;
+}
+
+/* Start learning section */
