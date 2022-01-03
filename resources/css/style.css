@@ -32,10 +32,12 @@ html body {
 
 .container-media img {
   width: 100%;
+  margin-bottom: 2rem;
 }
 
 .container-media video {
   width: 100%;
+  margin-bottom: 2rem;
 }
 
 .text-align-left {
@@ -51,7 +53,6 @@ html body {
 
 .text h2 {
   font-size: 2rem;
-  margin-top: 2rem;
   margin-bottom: 1.5rem;
 }
 
@@ -60,7 +61,6 @@ html body {
 }
 
 .text p {
-  margin: 0.5rem 0;
 }
 
 /* Header section */
@@ -100,7 +100,6 @@ html body {
   background-color: rgb(216, 215, 215);
   display: flex;
   padding-top: 2rem;
-  padding-bottom: 2rem;
 }
 
 .banner h1 {
@@ -127,7 +126,7 @@ button a {
 /* Information section */
 
 .information {
-  background-color: rgb(238, 238, 238);
+  background-color: rgb(241, 241, 241);
   display: flex;
   padding-bottom: 2rem;
 }
@@ -155,3 +154,30 @@ button a {
 }
 
 /* Start learning section */
+
+.learning {
+  background-color: rgb(226, 226, 226);
+  padding: 2rem 4.5rem 0;
+}
+
+.course-countainer {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 32px 32px;
+  box-sizing: border-box;
+}
+
+.learning-container {
+  background-color: white;
+  width: 100%;
+  margin: 0 2rem 2rem 0;
+}
+
+.learning-container img {
+  width: 100%;
+}
+
+.learning-text {
+  padding: 1rem 1rem 1.5rem;
+}
