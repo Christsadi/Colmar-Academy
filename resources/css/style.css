@@ -77,6 +77,19 @@ html body {
   font-family: "Montserrat-Bold", Arial, Helvetica, sans-serif;
 }
 
+.text p {
+  line-height: 1.5rem;
+}
+
+.text h4 {
+  line-height: 1.5rem;
+  margin: 0.5rem 0;
+}
+
+h4 a {
+  color: rgb(84, 150, 227);
+}
+
 /* Header section */
 
 .navbar {
@@ -140,6 +153,11 @@ html body {
   padding: 0.5rem;
   width: 65%;
   background-color: rgb(61, 61, 61);
+  border: none;
+}
+
+button:hover {
+  background-color: rgb(155, 155, 155);
 }
 
 .banner-text {
@@ -169,6 +187,11 @@ button a {
 .information-right-content {
   display: flex;
   padding: 1rem;
+  border: 1px solid rgb(216, 216, 216);
+}
+
+.information-right-content:hover {
+  background-color: rgb(216, 216, 216);
 }
 
 .information-right img {
