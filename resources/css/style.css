@@ -168,33 +168,33 @@ button a {
   color: white;
 }
 
-/* Information section */
+/* Information & thesis section */
 
-.information {
+.article {
   background-color: rgb(243, 245, 245);
   display: flex;
   padding-bottom: 2rem;
 }
 
-.information-left {
+.article-left {
   margin-top: 2rem;
 }
 
-.information-right {
+.article-right {
   margin-top: 1rem;
 }
 
-.information-right-content {
+.article-right-content {
   display: flex;
   padding: 1rem;
-  border: 1px solid rgb(216, 216, 216);
+  border: 1px solid #d8d8d8;
 }
 
-.information-right-content:hover {
+.article-right-content:hover {
   background-color: rgb(216, 216, 216);
 }
 
-.information-right img {
+.article-right img {
   width: 35%;
   margin-right: 1rem;
 }
@@ -221,7 +221,10 @@ button a {
 .learning-container {
   background-color: white;
   width: 100%;
-  margin: 0 2rem;
+}
+
+.learning-container:hover {
+  box-shadow: 0 0 20px 9px rgb(155, 155, 155);
 }
 
 .learning-container img {
@@ -232,11 +235,37 @@ button a {
   padding: 1rem 1rem 1.5rem;
 }
 
-/* Thesis section */
+.learning-text p {
+  margin: 0.5rem 0;
+}
+
+/* thesis section */
 
 .thesis {
-  background-color: rgb(241, 241, 241);
+  background-color: rgb(243, 245, 245);
   padding-top: 2rem;
+}
+
+.thesis-right-content {
+  display: flex;
+  padding: 1rem;
+}
+
+.thesis-right-content:hover {
+  background-color: rgb(216, 216, 216);
+}
+
+.thesis-left {
+  margin-top: 1rem;
+}
+
+.thesis-right {
+  margin-top: 0;
+}
+
+.thesis-right img {
+  width: 35%;
+  margin-right: 1rem;
 }
 
 /* footer section */
