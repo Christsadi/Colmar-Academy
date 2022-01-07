@@ -12,19 +12,23 @@
     format("opentype");
 }
 
-html {
-  margin: 0;
-  padding: 0;
+html,
+body {
   overflow-x: hidden;
+  width: 100%;
+  height: 100%;
 }
 
 html body {
   font-size: 16px;
   text-align: center;
-  margin: 0 auto;
   min-height: 100%;
   color: rgb(63, 63, 63);
   font-family: "Montserrat-Regular", Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
 }
 
 .main {
@@ -196,7 +200,7 @@ button a {
 .article-right-img img {
   width: 100%;
 }
-.mobile {
+.mobile-image {
   display: none;
 }
 
@@ -287,6 +291,29 @@ button a {
 /* Mobile section */
 
 @media screen and (max-width: 799px) {
+  /* Universal Styles */
+  .container {
+    padding: 0;
+  }
+
+  .container-article {
+    width: 100%;
+  }
+
+  .container-media {
+    width: 100%;
+    margin: 0;
+  }
+
+  .mobile-display {
+    display: none;
+  }
+
+  .mobile-image {
+    display: block;
+  }
+
+  /* Header section */
   .logo {
     display: none;
   }
@@ -298,9 +325,107 @@ button a {
   .navbar-mobile {
     display: flex;
     justify-content: space-between;
+    width: 100%;
+    height: 4rem;
+    padding: 0 1.5rem;
   }
 
+  .navbar-mobile img {
+    vertical-align: middle;
+  }
+
+  /* Banner section */
+
   .banner {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0;
+  }
+
+  .banner button {
+    width: 100%;
+  }
+
+  .banner-text {
+    width: 100%;
+  }
+
+  .container-article {
+    width: 100%;
+    padding: 0 1rem 2rem;
+  }
+
+  /* Information section */
+
+  .article-left {
+    display: none;
+  }
+
+  .article-right-content {
     display: block;
+    border: none;
+  }
+
+  .article-right-img {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .vertical-text {
+    padding: 0 1rem 2rem;
+  }
+
+  .article-right-content {
+    padding: 0;
+  }
+
+  /* learning section */
+
+  .learning {
+    background-color: rgb(255, 255, 255);
+    padding: 2rem 1rem;
+  }
+
+  .course-countainer {
+    display: block;
+  }
+
+  .learning-container {
+    background-color: rgb(234, 235, 236);
+  }
+
+  .learning-text p,
+  .learning-container img {
+    display: none;
+  }
+
+  .learning-text {
+    margin: 0.5rem auto;
+  }
+
+  /* thesis section */
+
+  .thesis-right-content {
+    display: block;
+  }
+
+  .thesis-right-content:hover {
+    background-color: rgb(216, 216, 216);
+  }
+
+  .article-text {
+    display: none;
+  }
+
+  .thesis-right {
+    display: none;
+  }
+
+  /* footer section */
+
+  .footer-container {
+    border-top: none;
+    background-color: rgb(243, 245, 245);
+    padding: 1rem;
   }
 }
