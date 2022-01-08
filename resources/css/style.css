@@ -280,12 +280,11 @@ button a {
   width: 100%;
   justify-content: space-between;
   align-items: center;
-  padding-top: 1rem;
 }
 
 .footer-container {
   border-top: 1px grey solid;
-  margin-bottom: 2rem;
+  padding: 1rem 1.5rem 2rem;
 }
 
 /* Mobile section */
@@ -298,6 +297,7 @@ button a {
 
   .container-article {
     width: 100%;
+    padding: 0 1rem 2rem;
   }
 
   .container-media {
@@ -339,20 +339,12 @@ button a {
   .banner {
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding-top: 0;
   }
 
   .banner button {
     width: 100%;
-  }
-
-  .banner-text {
-    width: 100%;
-  }
-
-  .container-article {
-    width: 100%;
-    padding: 0 1rem 2rem;
   }
 
   /* Information section */
