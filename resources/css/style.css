@@ -193,13 +193,19 @@ button a {
 }
 
 .article-right-img {
-  width: 35%;
-  margin-right: 1rem;
+  max-width: 35%;
 }
 
 .article-right-img img {
   width: 100%;
 }
+
+.article-vertical-text {
+  margin: auto 0;
+  padding: 1rem;
+  max-width: 58%;
+}
+
 .mobile-image {
   display: none;
 }
@@ -265,7 +271,7 @@ button a {
 }
 
 .thesis-right-img {
-  width: 35%;
+  max-width: 35%;
   margin-right: 1rem;
 }
 
@@ -347,6 +353,10 @@ button a {
     width: 100%;
   }
 
+  .banner-text {
+    margin-left: 1rem;
+  }
+
   /* Information section */
 
   .article-left {
@@ -356,19 +366,16 @@ button a {
   .article-right-content {
     display: block;
     border: none;
+    padding: 0;
   }
 
   .article-right-img {
-    width: 100%;
+    max-width: 100%;
     margin-bottom: 2rem;
   }
 
-  .vertical-text {
+  .article-vertical-text {
     padding: 0 1rem 2rem;
-  }
-
-  .article-right-content {
-    padding: 0;
   }
 
   /* learning section */
