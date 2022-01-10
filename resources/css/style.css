@@ -108,7 +108,7 @@ h4 a {
 }
 
 .logo p {
-  font-size: 1rem;
+  font-size: 2rem;
   color: rgb(216, 216, 216);
 }
 
@@ -131,6 +131,10 @@ h4 a {
   background-color: rgb(216, 216, 216);
   display: flex;
   padding-top: 2rem;
+}
+
+.banner-content {
+  width: 40%;
 }
 
 .banner h1 {
@@ -303,7 +307,6 @@ button a {
 
   .container-article {
     width: 100%;
-    padding: 0 1rem 2rem;
   }
 
   .container-media {
@@ -347,6 +350,12 @@ button a {
     flex-direction: column;
     align-items: center;
     padding-top: 0;
+    max-width: 100%;
+  }
+
+  .banner-content {
+    width: 95%;
+    padding: 0 1rem 2rem;
   }
 
   .banner button {
@@ -354,7 +363,11 @@ button a {
   }
 
   .banner-text {
-    margin-left: 1rem;
+    width: 100%;
+  }
+
+  .banner button {
+    max-width: 100%;
   }
 
   /* Information section */
